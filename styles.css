@@ -1,117 +1,32 @@
- /* your css code here. If applicable */
-
-body{
-/*     background-color:whitesmoke; */
-    /* height: 100vh; */
-}
-/*  .first{
-    margin:2rem auto;
-} */
-.description .block-heading{
-    text-align: center;
-    color:#3b99e0;
-/*     margin-bottom:1rem; */
-}
-.description p{
-    text-align: center;
-} 
-
-.second{
-    
-    background-color: white;
-    box-shadow: 2px 2px 8px 2px #d8d2d2;
-/*     margin:2rem auto; */
-}
-
-.col-12,.col-8,.col-4{
-    /* border:1px solid black; */
-}
-/* .content {
-    height:fit-content ;
-}
-.content .row{
-    padding: 1rem 0;
-} */
-
-/* .product{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-} */
-.product .image{
-    width:69px;
-    height:90px;
-display:flex;
-}
-/* .product .image img{
-    width:100%;
-    height:100%;
-}
-.product .spec{
-    display: flex;
-    flex-direction: column;
-    
-} */
-/* .product .spec h6{
-    color:#3b99e0;
-}
-.spec ul {
-    padding: 0;
-    list-style-type: none;
-    font-size: 0.9rem;
-    margin:0;
-    line-height:1.2;
-} */
-
-/* .product .quantity{
-    text-align: center;
-}*/
-
-.quantity input {
-    width: 67px;
-    padding: 0.2rem;
-    height: 27px;
-    padding-left: 1.3rem;
-    margin: 0.3rem;
-    text-align: center;
-    border:1px solid #e7e7e7;
-}
-/* 
-.quantity input:focus{
-  outline: none;
-}
-.price h4{
-    margin-right: 64px;
-   color:black;
-} */
-
-/* summary-- */
-.second .summary{
-    background-color:#f7fbff;
-    /* text-align: center; */
-    /* padding:2rem 2rem; */
-    border-top: 2px solid rgb(94, 164, 243);
-
-}
-.summary h3{
-    margin:2rem 0;
-}
-.summary .bill{
-    display: flex;
-    flex-direction: column;
-}
-.bill div{
-    display: flex;
-    border-bottom: 2px solid #e7e7e7;
-    justify-content:space-between;
-}
-.bill #total{
-    border:none;
-}
-/* .bill button{
-    background-color: #2d83e3;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 3px;
-    border: none;
-} */
+ *{ 
+             margin: 0 !important; 
+             padding: 0 !important; 
+             box-sizing: border-box !important; 
+         } 
+         body{ 
+             background-color: #eff0f0 !important; 
+         } 
+         .heading h2{ 
+                 color: #3b99e0  
+         } 
+         .summary{ 
+             background-color: #f7fbff !important; 
+             border-top: 3px solid #5ea4f3 !important; 
+               
+              
+         } 
+         span{ 
+             display: block; 
+         } 
+         div.button button{ 
+             width: 100%; 
+  
+         } 
+         div.products input{ 
+             width: 4rem; 
+             text-align: center; 
+         } 
+         .product-1 div{ 
+             /* border: 1px solid red; */ 
+             align-items: center;  
+           
